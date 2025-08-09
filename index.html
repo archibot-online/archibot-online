@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archibot Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Welcome to Archibot Online</h1>
+        
+        <label for="gptBoost">GPT Boosted:</label>
+        <input type="checkbox" id="gptBoost">
+        
+        <div class="chat-box" id="chatBox">
+            <div class="message system">Hello! Ask me anything.</div>
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your question..." autocomplete="off">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
